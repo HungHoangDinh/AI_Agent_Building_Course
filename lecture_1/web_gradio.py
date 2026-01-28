@@ -70,11 +70,9 @@ def chat_with_bot(message: str, history: list, session_id: str = "default") -> t
     
     # Convert history from old format [[user, bot], ...] to new format if needed
     if history and isinstance(history[0], list):
-        history = [
-            {"role": "user", "content": msg[0]},
-            {"role": "assistant", "content": msg[1]}
-            for msg in history
-        ]
+        for msg in history:
+            history.append({"role": "user", "content": msg[0]})
+            history.append({"role": "assistant", "content": msg[1]})
     
     try:
         # Get response from chain
@@ -199,5 +197,5 @@ if __name__ == "__main__":
         server_name="0.0.0.0",  # Allow external access
         server_port=7890,        # Default Gradio port
         share=False,             # Set to True to create public link
-        show_error=True
+        show_error=True,
     )
