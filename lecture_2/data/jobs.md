@@ -1,150 +1,191 @@
-## Danh sách JD của RikkeiSoft
-- **1. Frontend Developer (React/Next.js)**
-  - **Mô tả công việc:**
-    - Phát triển giao diện web hiện đại, tối ưu trải nghiệm người dùng.
-    - Xây dựng các component tái sử dụng bằng React/Next.js.
-    - Tối ưu hiệu năng client-side, SEO và tốc độ tải trang.
-    - Phối hợp chặt chẽ với Backend/Designer để hoàn thiện tính năng.
-    - Viết unit test cơ bản cho các component quan trọng.
-  - **Yêu cầu công việc:**
-    - Tối thiểu 1–2 năm kinh nghiệm làm Frontend (hoặc dự án cá nhân/chứng minh năng lực tương đương).
-    - Có kinh nghiệm với JavaScript/TypeScript và React (ưu tiên Next.js).
-    - Hiểu về HTML5, CSS3, responsive design, cross-browser.
-    - Biết sử dụng Git và các công cụ quản lý mã nguồn.
-    - Ưu tiên có kinh nghiệm với UI libraries (MUI/AntD/Tailwind...).
-    - Tư duy sản phẩm tốt, quan tâm đến trải nghiệm người dùng.
+# Danh sách JD cho công ty công nghệ
 
-- **2. Backend Developer (Python/Node.js)**
-  - **Mô tả công việc:**
-    - Thiết kế và phát triển API RESTful/GraphQL cho sản phẩm.
-    - Thiết kế cấu trúc CSDL (SQL/NoSQL), tối ưu truy vấn.
-    - Tích hợp với các dịch vụ bên thứ ba (payment, email, lưu trữ...).
-    - Đảm bảo bảo mật, phân quyền truy cập và logging hệ thống.
-    - Viết test cho business logic quan trọng.
-  - **Yêu cầu công việc:**
-    - Tối thiểu 1–3 năm kinh nghiệm phát triển backend với Python hoặc Node.js.
-    - Có kinh nghiệm với Python (Django/FastAPI/Flask) hoặc Node.js (Express/NestJS).
-    - Nắm vững kiến thức về cơ sở dữ liệu (MySQL/PostgreSQL/MongoDB...).
-    - Hiểu về kiến trúc API, authentication/authorization (JWT/OAuth2...).
-    - Biết làm việc với Docker, ít nhất ở mức cơ bản là lợi thế.
-    - Tư duy logic tốt, cẩn thận và chú trọng bảo mật.
+## 1. Frontend Developer (React/Next.js)
 
-- **3. DevOps Engineer**
-  - **Mô tả công việc:**
-    - Xây dựng và quản lý hạ tầng trên cloud (AWS/GCP/Azure).
-    - Thiết lập và duy trì CI/CD pipeline cho các dự án.
-    - Giám sát hệ thống (monitoring, alerting) và tối ưu tài nguyên.
-    - Tự động hóa quy trình deploy, backup, rollback.
-    - Đảm bảo hệ thống có tính sẵn sàng cao và khả năng mở rộng.
-  - **Yêu cầu công việc:**
-    - Tối thiểu 2–3 năm kinh nghiệm làm việc với hạ tầng, hệ thống.
-    - Có kinh nghiệm với ít nhất một nền tảng cloud phổ biến.
-    - Thành thạo Docker, ưu tiên biết Kubernetes.
-    - Biết sử dụng các công cụ CI/CD (GitHub Actions/GitLab CI/Jenkins...).
-    - Hiểu về networking cơ bản, bảo mật hệ thống, Linux.
-    - Kỹ năng scripting (Bash/Python) tốt.
+### Mô tả công việc
 
-- **4. QA Engineer (Manual/Automation)**
-  - **Mô tả công việc:**
-    - Xây dựng test plan, test case cho các tính năng mới.
-    - Thực hiện test manual (functional, regression, UI/UX…).
-    - Viết và duy trì test automation (API/UI) khi cần thiết.
-    - Phối hợp với team Dev/PM để tái hiện và theo dõi bug.
-    - Góp ý cải thiện quy trình đảm bảo chất lượng sản phẩm.
-  - **Yêu cầu công việc:**
-    - Tối thiểu 1–2 năm kinh nghiệm kiểm thử phần mềm.
-    - Hiểu về quy trình kiểm thử phần mềm, vòng đời bug.
-    - Có kinh nghiệm viết test case, test report rõ ràng.
-    - Biết sử dụng ít nhất một tool test automation (Postman, Selenium, Cypress...).
-    - Tỉ mỉ, cẩn thận, có tư duy phản biện và đặt câu hỏi.
-    - Kỹ năng giao tiếp và làm việc nhóm tốt.
+- Phát triển giao diện web hiện đại, tối ưu trải nghiệm người dùng.
+- Xây dựng các component tái sử dụng bằng React/Next.js.
+- Tối ưu hiệu năng client-side, SEO và tốc độ tải trang.
+- Phối hợp chặt chẽ với Backend/Designer để hoàn thiện tính năng.
+- Viết unit test cơ bản cho các component quan trọng.
 
-- **5. Product Manager**
-  - **Mô tả công việc:**
-    - Thu thập yêu cầu từ stakeholder và người dùng cuối.
-    - Xây dựng roadmap sản phẩm, ưu tiên backlog.
-    - Viết spec/PRD rõ ràng cho team kỹ thuật.
-    - Theo dõi tiến độ, đảm bảo tính năng được deliver đúng scope.
-    - Phân tích dữ liệu sử dụng sản phẩm và đề xuất cải tiến.
-  - **Yêu cầu công việc:**
-    - Tối thiểu 2–3 năm kinh nghiệm làm Product (hoặc BA/PO tương đương).
-    - Có kinh nghiệm làm việc với sản phẩm công nghệ.
-    - Kỹ năng phân tích yêu cầu, viết tài liệu rõ ràng, logic.
-    - Biết sử dụng các công cụ quản lý sản phẩm/dự án (Jira, Notion, Trello...).
-    - Tư duy data-driven, biết đọc và hiểu các chỉ số sản phẩm cơ bản.
-    - Kỹ năng giao tiếp, thương lượng và quản lý ưu tiên tốt.
+### Yêu cầu công việc
 
-- **6. UI/UX Designer**
-  - **Mô tả công việc:**
-    - Nghiên cứu hành vi người dùng, phân tích đối thủ.
-    - Thiết kế wireframe, user flow, prototype cho sản phẩm.
-    - Thiết kế UI theo design system, đảm bảo tính nhất quán.
-    - Phối hợp với Dev để đảm bảo UI thực thi đúng thiết kế.
-    - Tham gia kiểm thử UX, thu thập feedback để cải thiện.
-  - **Yêu cầu công việc:**
-    - Tối thiểu 1–2 năm kinh nghiệm UI/UX hoặc vị trí tương đương.
-    - Thành thạo các công cụ thiết kế (Figma/Sketch/XD...).
-    - Hiểu về nguyên tắc UX, UI, design system.
-    - Có portfolio thể hiện tư duy thiết kế và quy trình làm việc.
-    - Khả năng chuyển đổi yêu cầu product thành giải pháp giao diện hợp lý.
-    - Kỹ năng giao tiếp, thuyết trình ý tưởng tốt.
+- Tối thiểu 1–2 năm kinh nghiệm làm Frontend (hoặc dự án cá nhân/chứng minh năng lực tương đương).
+- Có kinh nghiệm với JavaScript/TypeScript và React (ưu tiên Next.js).
+- Hiểu về HTML5, CSS3, responsive design, cross-browser.
+- Biết sử dụng Git và các công cụ quản lý mã nguồn.
+- Ưu tiên có kinh nghiệm với UI libraries (MUI/AntD/Tailwind...).
+- Tư duy sản phẩm tốt, quan tâm đến trải nghiệm người dùng.
 
-- **7. Data Engineer**
-  - **Mô tả công việc:**
-    - Thiết kế và xây dựng pipeline xử lý dữ liệu (ETL/ELT).
-    - Làm việc với dữ liệu lớn (Data Warehouse, Data Lake).
-    - Tối ưu hiệu năng các luồng xử lý dữ liệu định kỳ/thời gian thực.
-    - Đảm bảo chất lượng, tính toàn vẹn và bảo mật dữ liệu.
-    - Hỗ trợ Data Scientist/Analyst trong việc truy xuất dữ liệu.
-  - **Yêu cầu công việc:**
-    - Tối thiểu 2–3 năm kinh nghiệm làm việc với dữ liệu.
-    - Thành thạo SQL, hiểu về tối ưu truy vấn.
-    - Có kinh nghiệm với một số công cụ/bền tảng dữ liệu (Airflow, DBT, BigQuery, Redshift...).
-    - Kỹ năng lập trình tốt với Python hoặc Scala/Java.
-    - Hiểu về kiến trúc dữ liệu, mô hình hóa dữ liệu.
-    - Cẩn thận, có tư duy hệ thống và xử lý dữ liệu quy mô lớn.
+## 2. Backend Developer (Python/Node.js)
 
-- **8. Data Scientist / Machine Learning Engineer**
-  - **Mô tả công việc:**
-    - Phân tích dữ liệu, xây dựng mô hình ML phục vụ sản phẩm.
-    - Thực hiện exploratory data analysis (EDA) để tìm insight.
-    - Huấn luyện, đánh giá và tối ưu mô hình ML/Deep Learning.
-    - Triển khai mô hình vào môi trường production (MLOps cơ bản).
-    - Làm việc chặt với Product/Business để đo lường hiệu quả mô hình.
-  - **Yêu cầu công việc:**
-    - Tối thiểu 2–3 năm kinh nghiệm ở vị trí Data Scientist/ML Engineer hoặc tương đương.
-    - Nắm vững thống kê cơ bản và các thuật toán ML phổ biến.
-    - Có kinh nghiệm với Python và các thư viện dữ liệu/ML (Pandas, Scikit-learn, TensorFlow/PyTorch...).
-    - Biết làm việc với notebook, pipeline huấn luyện và đánh giá mô hình.
-    - Hiểu về quy trình đưa mô hình vào production là một lợi thế.
-    - Tư duy phân tích tốt, có khả năng chuyển bài toán kinh doanh thành bài toán dữ liệu.
+### Mô tả công việc
 
-- **9. Mobile Developer (iOS/Android/Flutter)**
-  - **Mô tả công việc:**
-    - Phát triển ứng dụng mobile native hoặc cross-platform.
-    - Tối ưu hiệu năng, dung lượng app và trải nghiệm người dùng.
-    - Tích hợp API backend, handle offline mode, push notification.
-    - Tuân thủ guideline của App Store/Google Play.
-    - Hỗ trợ release, theo dõi crash log, cải thiện chất lượng app.
-  - **Yêu cầu công việc:**
-    - Tối thiểu 1–2 năm kinh nghiệm phát triển ứng dụng mobile.
-    - Có kinh nghiệm với một trong các nền tảng: iOS (Swift), Android (Kotlin/Java) hoặc Flutter/React Native.
-    - Hiểu về lifecycle của ứng dụng mobile, quản lý state, navigation.
-    - Biết làm việc với RESTful API, JSON, WebSocket là lợi thế.
-    - Ưu tiên có sản phẩm đã publish hoặc demo thực tế.
-    - Tư duy UI/UX tốt, chú trọng trải nghiệm người dùng.
+- Thiết kế và phát triển API RESTful/GraphQL cho sản phẩm.
+- Thiết kế cấu trúc CSDL (SQL/NoSQL), tối ưu truy vấn.
+- Tích hợp với các dịch vụ bên thứ ba (payment, email, lưu trữ...).
+- Đảm bảo bảo mật, phân quyền truy cập và logging hệ thống.
+- Viết test cho business logic quan trọng.
 
-- **10. Technical Lead / Software Architect**
-  - **Mô tả công việc:**
-    - Định hướng kiến trúc hệ thống, lựa chọn công nghệ phù hợp.
-    - Review thiết kế, code và đảm bảo chất lượng kỹ thuật chung.
-    - Hỗ trợ giải quyết các bài toán kỹ thuật phức tạp.
-    - Hướng dẫn, mentor các thành viên trong team.
-    - Phối hợp với PM/Business để cân bằng giữa kỹ thuật và yêu cầu kinh doanh.
-  - **Yêu cầu công việc:**
-    - Tối thiểu 5+ năm kinh nghiệm phát triển phần mềm, trong đó có trải nghiệm lead team/kỹ thuật.
-    - Nhiều năm kinh nghiệm phát triển phần mềm với vai trò Senior/Lead.
-    - Có kinh nghiệm thiết kế kiến trúc hệ thống phân tán, microservices là lợi thế.
-    - Kỹ năng review code, định hướng standard, best practices cho team.
-    - Kỹ năng communication tốt, có khả năng đưa ra quyết định kỹ thuật rõ ràng.
-    - Tinh thần ownership cao, định hướng được tầm nhìn kỹ thuật cho sản phẩm.
+### Yêu cầu công việc
+
+- Tối thiểu 1–3 năm kinh nghiệm phát triển backend với Python hoặc Node.js.
+- Có kinh nghiệm với Python (Django/FastAPI/Flask) hoặc Node.js (Express/NestJS).
+- Nắm vững kiến thức về cơ sở dữ liệu (MySQL/PostgreSQL/MongoDB...).
+- Hiểu về kiến trúc API, authentication/authorization (JWT/OAuth2...).
+- Biết làm việc với Docker, ít nhất ở mức cơ bản là lợi thế.
+- Tư duy logic tốt, cẩn thận và chú trọng bảo mật.
+
+## 3. DevOps Engineer
+
+### Mô tả công việc
+
+- Xây dựng và quản lý hạ tầng trên cloud (AWS/GCP/Azure).
+- Thiết lập và duy trì CI/CD pipeline cho các dự án.
+- Giám sát hệ thống (monitoring, alerting) và tối ưu tài nguyên.
+- Tự động hóa quy trình deploy, backup, rollback.
+- Đảm bảo hệ thống có tính sẵn sàng cao và khả năng mở rộng.
+
+### Yêu cầu công việc
+
+- Tối thiểu 2–3 năm kinh nghiệm làm việc với hạ tầng, hệ thống.
+- Có kinh nghiệm với ít nhất một nền tảng cloud phổ biến.
+- Thành thạo Docker, ưu tiên biết Kubernetes.
+- Biết sử dụng các công cụ CI/CD (GitHub Actions/GitLab CI/Jenkins...).
+- Hiểu về networking cơ bản, bảo mật hệ thống, Linux.
+- Kỹ năng scripting (Bash/Python) tốt.
+
+## 4. QA Engineer (Manual/Automation)
+
+### Mô tả công việc
+
+- Xây dựng test plan, test case cho các tính năng mới.
+- Thực hiện test manual (functional, regression, UI/UX…).
+- Viết và duy trì test automation (API/UI) khi cần thiết.
+- Phối hợp với team Dev/PM để tái hiện và theo dõi bug.
+- Góp ý cải thiện quy trình đảm bảo chất lượng sản phẩm.
+
+### Yêu cầu công việc
+
+- Tối thiểu 1–2 năm kinh nghiệm kiểm thử phần mềm.
+- Hiểu về quy trình kiểm thử phần mềm, vòng đời bug.
+- Có kinh nghiệm viết test case, test report rõ ràng.
+- Biết sử dụng ít nhất một tool test automation (Postman, Selenium, Cypress...).
+- Tỉ mỉ, cẩn thận, có tư duy phản biện và đặt câu hỏi.
+- Kỹ năng giao tiếp và làm việc nhóm tốt.
+
+## 5. Product Manager
+
+### Mô tả công việc
+
+- Thu thập yêu cầu từ stakeholder và người dùng cuối.
+- Xây dựng roadmap sản phẩm, ưu tiên backlog.
+- Viết spec/PRD rõ ràng cho team kỹ thuật.
+- Theo dõi tiến độ, đảm bảo tính năng được deliver đúng scope.
+- Phân tích dữ liệu sử dụng sản phẩm và đề xuất cải tiến.
+
+### Yêu cầu công việc
+
+- Tối thiểu 2–3 năm kinh nghiệm làm Product (hoặc BA/PO tương đương).
+- Có kinh nghiệm làm việc với sản phẩm công nghệ.
+- Kỹ năng phân tích yêu cầu, viết tài liệu rõ ràng, logic.
+- Biết sử dụng các công cụ quản lý sản phẩm/dự án (Jira, Notion, Trello...).
+- Tư duy data-driven, biết đọc và hiểu các chỉ số sản phẩm cơ bản.
+- Kỹ năng giao tiếp, thương lượng và quản lý ưu tiên tốt.
+
+## 6. UI/UX Designer
+
+### Mô tả công việc
+
+- Nghiên cứu hành vi người dùng, phân tích đối thủ.
+- Thiết kế wireframe, user flow, prototype cho sản phẩm.
+- Thiết kế UI theo design system, đảm bảo tính nhất quán.
+- Phối hợp với Dev để đảm bảo UI thực thi đúng thiết kế.
+- Tham gia kiểm thử UX, thu thập feedback để cải thiện.
+
+### Yêu cầu công việc
+
+- Tối thiểu 1–2 năm kinh nghiệm UI/UX hoặc vị trí tương đương.
+- Thành thạo các công cụ thiết kế (Figma/Sketch/XD...).
+- Hiểu về nguyên tắc UX, UI, design system.
+- Có portfolio thể hiện tư duy thiết kế và quy trình làm việc.
+- Khả năng chuyển đổi yêu cầu product thành giải pháp giao diện hợp lý.
+- Kỹ năng giao tiếp, thuyết trình ý tưởng tốt.
+
+## 7. Data Engineer
+
+### Mô tả công việc
+
+- Thiết kế và xây dựng pipeline xử lý dữ liệu (ETL/ELT).
+- Làm việc với dữ liệu lớn (Data Warehouse, Data Lake).
+- Tối ưu hiệu năng các luồng xử lý dữ liệu định kỳ/thời gian thực.
+- Đảm bảo chất lượng, tính toàn vẹn và bảo mật dữ liệu.
+- Hỗ trợ Data Scientist/Analyst trong việc truy xuất dữ liệu.
+
+### Yêu cầu công việc
+
+- Tối thiểu 2–3 năm kinh nghiệm làm việc với dữ liệu.
+- Thành thạo SQL, hiểu về tối ưu truy vấn.
+- Có kinh nghiệm với một số công cụ/bền tảng dữ liệu (Airflow, DBT, BigQuery, Redshift...).
+- Kỹ năng lập trình tốt với Python hoặc Scala/Java.
+- Hiểu về kiến trúc dữ liệu, mô hình hóa dữ liệu.
+- Cẩn thận, có tư duy hệ thống và xử lý dữ liệu quy mô lớn.
+
+## 8. Data Scientist / Machine Learning Engineer
+
+### Mô tả công việc
+
+- Phân tích dữ liệu, xây dựng mô hình ML phục vụ sản phẩm.
+- Thực hiện exploratory data analysis (EDA) để tìm insight.
+- Huấn luyện, đánh giá và tối ưu mô hình ML/Deep Learning.
+- Triển khai mô hình vào môi trường production (MLOps cơ bản).
+- Làm việc chặt với Product/Business để đo lường hiệu quả mô hình.
+
+### Yêu cầu công việc
+
+- Tối thiểu 2–3 năm kinh nghiệm ở vị trí Data Scientist/ML Engineer hoặc tương đương.
+- Nắm vững thống kê cơ bản và các thuật toán ML phổ biến.
+- Có kinh nghiệm với Python và các thư viện dữ liệu/ML (Pandas, Scikit-learn, TensorFlow/PyTorch...).
+- Biết làm việc với notebook, pipeline huấn luyện và đánh giá mô hình.
+- Hiểu về quy trình đưa mô hình vào production là một lợi thế.
+- Tư duy phân tích tốt, có khả năng chuyển bài toán kinh doanh thành bài toán dữ liệu.
+
+## 9. Mobile Developer (iOS/Android/Flutter)
+
+### Mô tả công việc
+
+- Phát triển ứng dụng mobile native hoặc cross-platform.
+- Tối ưu hiệu năng, dung lượng app và trải nghiệm người dùng.
+- Tích hợp API backend, handle offline mode, push notification.
+- Tuân thủ guideline của App Store/Google Play.
+- Hỗ trợ release, theo dõi crash log, cải thiện chất lượng app.
+
+### Yêu cầu công việc
+
+- Tối thiểu 1–2 năm kinh nghiệm phát triển ứng dụng mobile.
+- Có kinh nghiệm với một trong các nền tảng: iOS (Swift), Android (Kotlin/Java) hoặc Flutter/React Native.
+- Hiểu về lifecycle của ứng dụng mobile, quản lý state, navigation.
+- Biết làm việc với RESTful API, JSON, WebSocket là lợi thế.
+- Ưu tiên có sản phẩm đã publish hoặc demo thực tế.
+- Tư duy UI/UX tốt, chú trọng trải nghiệm người dùng.
+
+## 10. Technical Lead / Software Architect
+
+### Mô tả công việc
+
+- Định hướng kiến trúc hệ thống, lựa chọn công nghệ phù hợp.
+- Review thiết kế, code và đảm bảo chất lượng kỹ thuật chung.
+- Hỗ trợ giải quyết các bài toán kỹ thuật phức tạp.
+- Hướng dẫn, mentor các thành viên trong team.
+- Phối hợp với PM/Business để cân bằng giữa kỹ thuật và yêu cầu kinh doanh.
+
+### Yêu cầu công việc
+
+- Tối thiểu 5+ năm kinh nghiệm phát triển phần mềm, trong đó có trải nghiệm lead team/kỹ thuật.
+- Nhiều năm kinh nghiệm phát triển phần mềm với vai trò Senior/Lead.
+- Có kinh nghiệm thiết kế kiến trúc hệ thống phân tán, microservices là lợi thế.
+- Kỹ năng review code, định hướng standard, best practices cho team.
+- Kỹ năng communication tốt, có khả năng đưa ra quyết định kỹ thuật rõ ràng.
+- Tinh thần ownership cao, định hướng được tầm nhìn kỹ thuật cho sản phẩm.
