@@ -48,7 +48,7 @@ embeddings = OpenAIEmbeddingFunction(
 
 def create_or_get_vector_store(
     collection_name: str = "documents",
-    persist_directory: str = "lecture_2/vector_store",
+    persist_directory: str = "vector_store",
     delete_existing: bool = False,
 ):
     if delete_existing:
@@ -71,7 +71,7 @@ def create_or_get_vector_store(
 
 def ingest_documents(
     collection_name: str = "documents",
-    persist_directory: str = "lecture_2/vector_store",
+    persist_directory: str = "vector_store",
     documents: Optional[List[Document]] = None,
 ):
     if not documents:
