@@ -9,3 +9,5 @@ wheels/
 # Virtual environments
 .venv
 .env
+lecture_2/vector_store/
+lecture_2/lecture_2/vector_store
