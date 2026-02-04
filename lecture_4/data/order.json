@@ -1,0 +1,42 @@
+[
+      {
+        "order_id": "ORDER123",
+        "order_name": "Tai nghe Bluetooth ABC",
+        "order_date": "2025-01-10",
+        "delivery_status": "delivered",
+        "payment_status": "paid",
+        "refund_status": "not_refunded",
+        "refund_eligible": true,
+        "refund_deadline": "2025-02-10"
+      },
+      {
+        "order_id": "ORDER456",
+        "order_name": "Chuột không dây XYZ",
+        "order_date": "2025-01-05",
+        "delivery_status": "delivered",
+        "payment_status": "paid",
+        "refund_status": "not_refunded",
+        "refund_eligible": false,
+        "refund_deadline": "2025-01-15"
+      },
+      {
+        "order_id": "ORDER789",
+        "order_name": "Bàn phím cơ DEF",
+        "order_date": "2024-12-20",
+        "delivery_status": "shipping",
+        "payment_status": "paid",
+        "refund_status": "not_refunded",
+        "refund_eligible": false,
+        "refund_deadline": null
+      },
+      {
+        "order_id": "ORDER999",
+        "order_name": "Màn hình 24 inch GHI",
+        "order_date": "2024-11-01",
+        "delivery_status": "delivered",
+        "payment_status": "paid",
+        "refund_status": "refunded",
+        "refund_eligible": false,
+        "refund_deadline": "2024-12-01"
+      }
+]

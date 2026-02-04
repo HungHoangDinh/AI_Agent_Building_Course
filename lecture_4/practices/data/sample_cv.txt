@@ -1,0 +1,25 @@
+NGUYỄN VĂN A
+Email: nguyenvana@email.com | SĐT: 0901234567
+
+MỤC TIÊU NGHỀ NGHIỆP
+Ứng tuyển vị trí Backend Engineer. Có 3 năm kinh nghiệm phát triển ứng dụng web với Python và SQL, mong muốn đóng góp vào các sản phẩm phần mềm chất lượng cao.
+
+KINH NGHIỆM LÀM VIỆC
+
+Backend Developer – Công ty ABC (2021 – nay)
+- Phát triển API REST với Python (FastAPI), thiết kế và tối ưu database PostgreSQL.
+- Xây dựng pipeline xử lý dữ liệu, tích hợp Redis cho cache.
+- Tham gia code review và hướng dẫn junior.
+
+Intern Backend – Công ty XYZ (2020 – 2021)
+- Hỗ trợ viết unit test, tài liệu API.
+- Làm quen với Docker và CI/CD.
+
+KỸ NĂNG
+- Ngôn ngữ: Python, SQL
+- Framework: FastAPI, Django
+- Database: PostgreSQL, Redis
+- Công cụ: Git, Docker, Linux
+
+HỌC VẤN
+Cử nhân Công nghệ Thông tin – Đại học Bách Khoa (2016 – 2020)
