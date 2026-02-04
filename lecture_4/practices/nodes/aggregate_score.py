@@ -9,11 +9,16 @@ def aggregate_score_node(state: dict) -> dict:
         scores = state.get("scores") or []
         questions = state.get("questions") or []
 
-        # TODO: Tính total_score = tổng score từ scores; max_score = tổng max_score từ questions; percentage = total_score / max_score * 100 nếu max_score > 0.
-        total_score = sum((s.get("score") or 0) for s in scores)
-        max_score = sum((q.get("max_score") or 0) for q in questions) or 1.0
-        percentage = (total_score / max_score * 100) if max_score else 0.0
+        # TODO:
+        # - Tính:
+        #     + total_score = tổng các trường score trong list scores.
+        #     + max_score   = tổng các trường max_score trong list questions.
+        #     + percentage  = total_score / max_score * 100 (nếu max_score > 0, ngược lại có thể để 0).
+        # - Xử lý an toàn khi thiếu trường hoặc giá trị None.
+        # - Trả về dict: {"total_score": total_score, "max_score": max_score, "percentage": percentage}.
 
-        return {"total_score": total_score, "max_score": max_score, "percentage": percentage}
+        raise NotImplementedError(
+            "aggregate_score_node chưa được cài đặt, hãy tự triển khai logic tổng hợp điểm."
+        )
     except Exception as e:
         return {"error": True, "error_message": str(e)}

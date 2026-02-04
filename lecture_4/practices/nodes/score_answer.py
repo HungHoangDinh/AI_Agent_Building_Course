@@ -22,8 +22,20 @@ def score_answer_node(state: dict) -> dict:
         idx = state.get("current_question_index", 0)
         scores = list(state.get("scores") or [])
 
-        # TODO: Gọi LLM (OpenAI) với SCORE_ANSWER_PROMPT + câu hỏi hiện tại (questions[idx]) + candidate_answer, parse JSON -> ScoreItem; append ScoreItem.model_dump() vào scores.
-        # TODO: Append câu trả lời (role user) vào messages 
-        return {"scores": scores}
+        # TODO:
+        # - Lấy câu hỏi hiện tại: current_question = questions[idx]
+        # - Tạo prompt từ SCORE_ANSWER_PROMPT + current_question + candidate_answer.
+        # - Gọi LLM (OpenAI) để chấm điểm và nhận xét, yêu cầu trả về JSON theo schema ScoreItem.
+        # - Parse JSON:
+        #       item = ScoreItem(**json_data)
+        #       scores.append(item.model_dump())
+        # - Nếu bạn có giữ lịch sử hội thoại trong state["messages"], hãy append
+        #   câu trả lời của ứng viên (role="user") và/hoặc kết quả chấm (role="assistant")
+        #   tuỳ thiết kế.
+        # - Cuối cùng trả về dict mới chứa "scores" đã được cập nhật.
+
+        raise NotImplementedError(
+            "score_answer_node chưa được cài đặt, hãy tự triển khai logic chấm điểm với LLM."
+        )
     except Exception as e:
         return {"error": True, "error_message": str(e)}

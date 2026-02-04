@@ -11,30 +11,29 @@ Các trường trong InterviewState và tác dụng:
 - scores: Danh sách kết quả chấm từng câu (question_id, score, comment) — append bởi score_answer; dùng cho aggregate_score và final_evaluation.
 - messages: Danh sách tin nhắn (list message) — mỗi câu hỏi có một câu trả lời tương ứng: append câu hỏi (role assistant) bởi ask_question, append câu trả lời (role user) khi có candidate_answer; dùng để hiển thị / log toàn bộ Q&A.
 - total_score, max_score, percentage: Tổng điểm, điểm tối đa, phần trăm — output của aggregate_score; dùng cho final_evaluation.
-- final_result: Kết quả đánh giá cuối (level: Pass | Consider | Reject, summary) — output của final_evaluation; dùng để in kết quả.
+- final_result: Kết quả đánh giá cuối — dict có dạng {\"level\": \"Pass|Consider|Reject\", \"summary\": \"1 câu nhận xét ngắn gọn về ứng viên\"}, được tạo bởi node final_evaluation; dùng để in cho HR/nguời phỏng vấn.
 - error: Có lỗi hay không (bool) — True khi node báo lỗi; main kiểm tra và xử lý (hiển thị error_message / retry).
 - error_message: Thông báo lỗi (string) — nội dung lỗi khi error=True; dùng để hiển thị / log.
 """
 
-from typing import TypedDict
+from typing import TypedDict, Optional
 class Message(TypedDict):
     role: str
     content: str
-# TODO: Khai báo InterviewState (TypedDict, total=False) với các key trên.
 class InterviewState(TypedDict, total=False):
-    cv_text: str
-    candidate_info: dict
-    questions: list
-    current_question_index: int
-    candidate_answer: str
-    scores: list
+    cv_text: Optional[str]
+    candidate_info: Optional[dict]
+    questions: Optional[list]
+    current_question_index: Optional[int]
+    candidate_answer: Optional[str]
+    scores: Optional[list]
     messages: list[Message]
-    total_score: float
-    max_score: float
-    percentage: float
-    final_result: dict
-    error: bool  # handle lỗi: True khi node báo lỗi; main kiểm tra và xử lý
-    error_message: str  # nội dung lỗi khi error=True
+    total_score: Optional[float]
+    max_score: Optional[float]
+    percentage: Optional[float]
+    final_result: Optional[dict]
+    error: Optional[bool]  # handle lỗi: True khi node báo lỗi; main kiểm tra và xử lý
+    error_message: Optional[str]  # nội dung lỗi khi error=True
 
 
 __all__ = ["InterviewState", "Message"]
