@@ -5,7 +5,7 @@ Tham khảo: lecture_3/main.ipynb (tools), lecture_2 (RAG).
 import os
 import sys
 
-# TODO: from langchain_openai import ChatOpenAI (hoặc model tương thích)
+# TODO: from langchain_google_genai import ChatGoogleGenerativeAI (hoặc model tương thích)
 # TODO: from langchain.agents import create_react_agent, AgentExecutor
 # TODO: from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 # TODO: from langchain_community.chat_message_histories import ChatMessageHistory
