@@ -3,7 +3,7 @@ from typing import List, Optional
 from langchain_chroma import Chroma
 from langchain_core.documents import Document
 from openai import OpenAI
-
+from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from config import settings
 
 
@@ -13,31 +13,12 @@ from config import settings
 
 client = OpenAI(api_key=settings.LLM_API_KEY, base_url=settings.LLM_BASE_URL)
 
-
-class OpenAIEmbeddingFunction:
-    def __init__(self, model: str = "text-embedding-3-large"):
-        self.model = model
-
-    def embed_documents(self, texts: List[str]) -> List[List[float]]:
-        response = client.embeddings.create(
-            model=self.model,
-            input=texts,
-        )
-        return [item.embedding for item in response.data]
-
-    def embed_query(self, text: str) -> List[float]:
-        response = client.embeddings.create(
-            model=self.model,
-            input=text,
-        )
-        return response.data[0].embedding
-
-
 # =========================
 # Initialize Embeddings
 # =========================
 
-embeddings = OpenAIEmbeddingFunction(
+embeddings = GoogleGenerativeAIEmbeddings(
+    api_key=settings.LLM_API_KEY,
     model=settings.LLM_EMBEDDING_MODEL
 )
 
